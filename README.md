@@ -6,7 +6,7 @@ USAGE: python chip32fxb2wav.py inputfile.fxb
 このスクリプトを実行すると、実施した時点の日時で "YYMMDDhhmmss" 形式で新しいフォルダが作られます。そして、フォルダの中には指定したfxbファイルに収録されている１６個の波形に相当する wav ファイルが作成されます。  
 wav ファイルの名前には、001 からの連番に続けて Chip32 で使われていた名前の先頭１２文字までが使われます。  
 
-また、この wav ファイルは、SONICWARE社製 ELZ_1（エルザワン）　シンセサイザーの 8BIT WAVMEM SYNTH　波形データとして読み込ませることができます。  
+また、この wav ファイルは、SONICWARE社製 ELZ_1（エルザワン）シンセサイザーの 8BIT WAVMEM SYNTH 波形データとして読み込ませることができます。  
 
 このスクリプトは、私自身の python と github の勉強用に作ったものです。
 Windows PC 上で python 3.8.3 を使用しました。  
